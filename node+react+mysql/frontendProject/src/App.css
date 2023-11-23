@@ -1,0 +1,54 @@
+.mainReadit{
+    width:100vw !important;
+    display: flex !important;
+}
+
+
+.recents, .vocabulary{
+    width:24% !important;
+    /* height:100vh; */
+    
+}
+
+.recents, .vocabulary{
+    padding: 34px 0 0 0 !important; 
+    border-right: 1px solid #000 !important;
+}
+
+
+
+.input_section{
+    width: 52% !important; 
+    padding: 34px 0 0 0 !important; 
+}
+
+
+.heading h2{
+    display: block !important;
+    font-size: 24px !important;
+}
+
+.heading{
+    border-bottom: 1px solid #000 !important;
+    padding-bottom: 15px !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+}
+
+.text_input{
+    font-family: "Open Sans" !important;
+    border: none !important;
+    border-radius: 15px !important;
+    background-color: rgb(237, 237, 237) !important;
+    padding: 15px !important;
+    display: block !important;
+    width: 50% !important;
+}
+
+input:focus{
+    outline: 1px solid #000 !important;
+}
+
+.StoryBodyCompanionColumn{
+    width: auto !important;
+}
