@@ -1,0 +1,27 @@
+.heading{
+    font-size: 24px;
+}
+
+.recents-outer{
+    padding: 0 0 80px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.recents-container{
+    width: 60%!important;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.vocab-h1-container{
+    width: 60%;
+    margin: 40px auto 30px;
+
+}
+
+.heading > h2{
+    width: 68%;
+    margin: 0 auto;
+    margin: 40px auto 30px;
+}

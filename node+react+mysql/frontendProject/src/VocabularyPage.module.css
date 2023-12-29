@@ -1,0 +1,17 @@
+.vocab-container{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.vocab-h1-container{
+    width: 60%;
+    margin: 40px auto 30px;
+
+}
+
+.vocab-h1::after{
+    width: 1px;
+    background-color: aqua;
+    content: '';
+}

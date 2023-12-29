@@ -1,0 +1,23 @@
+.cefr-grade-article{
+    font-family: "Neue Machina", serif !important;
+    background-color: #B80C09;
+    color: #EFF6EE;
+    border-radius: 20px;
+    padding: 0 10px;
+    width: fit-content;
+}
+
+.cefr-grade-outer{
+    margin: 50px auto 15px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+#ArticleFetched{
+    padding: 0 10px;
+    overflow-y: hidden;
+}
+
+
+

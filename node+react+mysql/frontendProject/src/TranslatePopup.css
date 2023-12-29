@@ -1,0 +1,108 @@
+/* Import Google Font - Poppins */
+
+#context-menu-container{
+  display: none;
+}
+
+.context-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  flex-direction: column;
+}
+
+.context-menu-item {
+  padding: 8px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: .1s all ease-in-out;
+}
+
+.context-menu-item svg{
+  width: 25px;
+  
+}
+
+.context-menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.context-menu-item:hover #icon_border {
+  stroke: #273043;
+  fill:#273043;
+  opacity:1;
+  transition: .1s all ease-in-out;
+}
+
+.context-menu-item:hover #icon_add_sign {
+  stroke: #fff;
+  transition: .1s all ease-in-out;
+}
+
+.wrapper{
+  position: absolute;
+  width: 300px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+.wrapper .menu{
+  padding: 10px 12px;
+}
+.content .item{
+  list-style: none;
+  font-size: 22px;
+  height: 50px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  padding: 0 5px 0 10px;
+}
+.content .item:hover{
+  background: #f2f2f2;
+}
+.content .item span{
+  margin-left: 8px;
+  font-size: 19px;
+}
+.content .setting{
+  display: flex;
+  margin-top: -5px;
+  padding: 5px 12px;
+  border-top: 1px solid #ccc;
+}
+.content .share{
+  position: relative;
+  justify-content: space-between;
+}
+.share .share-menu{
+  position: absolute;
+  background: #fff;
+  width: 200px;
+  right: -200px;
+  top: -35px;
+  padding: 13px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+.share:hover .share-menu{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.context-menu .translation{
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 10px 5px 20px;
+}

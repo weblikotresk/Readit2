@@ -1,0 +1,23 @@
+
+.MobileFooter{
+    width: 100vw;
+    height: 60px;
+    position:fixed;
+    bottom: 0;
+    background-color: #273043;
+}
+
+.MobileFooter-inner{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 13px 0;
+}
+
+.MobileFooter-inner svg{
+    width: 35px;
+    /* fill: #fff; */
+}
+
+.MobileFooter path{
+    stroke: #fff;
+}

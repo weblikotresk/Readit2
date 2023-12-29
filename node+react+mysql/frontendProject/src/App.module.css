@@ -1,0 +1,155 @@
+#root{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainReadit{
+    width:100vw !important;
+    display: flex !important;
+    height: fit-content !important;
+    flex: 1 0 auto;
+    
+}
+
+
+.recents, .vocabulary{
+    width:24% !important;
+    /* height:100vh; */
+    
+}
+
+.vocabulary{
+    padding: 60px 0 0 0 !important; 
+    padding-top: 60px;
+    border-left: 1px solid #000;
+    overflow-x: hidden;
+}
+
+
+.recents{
+    padding: 34px 0 0 0 !important;
+    border-right: 1px solid #000 !important;
+}
+
+
+
+.input_section{
+    overflow-x: clip;
+    position: relative;
+    width: 52%;
+    padding: 34px 0 0 0; 
+    height: fit-content;
+}
+.input_container{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heading h2{
+    display: block !important;
+    font-size: 24px !important;
+}
+
+.heading{
+    border-bottom: 1px solid #000 !important;
+    padding-bottom: 15px !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+}
+
+form{
+    position: relative;
+}
+
+.text_input{
+    font-family: "Open Sans" !important;
+    border: none !important;
+    border-radius: 15px !important;
+    background-color: rgb(237, 237, 237) !important;
+    padding: 15px 50px 15px 15px !important;
+    display: block !important;
+    width: -webkit-fill-available !important;
+}
+
+input:focus{
+    outline: 1px solid #000 !important;
+}
+
+input[type=submit]{
+    display: none;
+}
+
+.submit_btn{
+    width: fit-content;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+
+.submit_btn svg{
+    width: 33px;
+    transition: all .5s ease-in;
+}
+
+.submit_btn svg:hover{
+   cursor: pointer;
+   
+}
+
+.submit_btn svg:hover #first-path{
+    stroke: none;
+    fill: #000;
+}
+
+.submit_btn svg:hover #second-path, .submit_btn svg:hover #third-path{
+    stroke: #fff;
+    fill: #fff;
+}
+
+
+
+#top-wrapper, #bottom-wrapper{
+    display: none;
+}
+
+#readitFooter{
+    background-color: #273043;
+    width: 100%;
+    color: #fff;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* .footer-container{
+    margin: 0 auto;
+    width: fit-content; 
+} */
+
+
+
+
+@media screen and (max-width: 1000px){
+    .input_section{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .input_section{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input_container{
+        width: 100%;
+    }
+}

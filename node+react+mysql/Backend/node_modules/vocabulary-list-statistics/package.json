@@ -1,0 +1,26 @@
+{
+  "name": "vocabulary-list-statistics",
+  "version": "1.0.12",
+  "main": "./dist/en.json",
+  "repository": "https://github.com/openderock/vocabulary-list-statistics.git",
+  "author": "Sajjad Shirazy <shirazy.sajjad@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "english",
+    "vocabulary",
+    "statistics",
+    "frequency",
+    "relative frequency",
+    "cumulative"
+  ],
+  "scripts": {
+    "build": "node en.js"
+  },
+  "devDependencies": {
+    "csv-writer": "^1.3.0",
+    "extract-lemmatized-nonstop-words": "^1.0.17",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11"
+  },
+  "dependencies": {}
+}

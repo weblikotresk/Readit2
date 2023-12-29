@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    box-sizing: content-box!important;
+    }
+
+    #root{
+        overflow-x: hidden;
+    }
+    
+    body {
+     background-color: #d3d3d3 !important; 
+      color: #000 !important;
+      font-family: "Open Sans" !important;
+      font-size: 1em !important;
+    }
+    
+    img{
+        max-width: 100% ;
+        height: auto;
+    }
+    p{
+        width: auto !important;
+    }
+    
+    #readitHeader{
+        background-color:#273043 !important;
+        width:100vw !important;
+        height: 80px !important;
+    }
+    
+    #readitHeader h1 a{
+        font-family: "Neue Machina", serif !important;
+        font-weight:900 !important;
+        font-size:40px !important;
+        color:#EFF6EE !important;
+        display:block !important;
+        height: fit-content !important;
+        text-decoration: none;
+    }
+    
+    .logo_container{
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        align-items: center !important;
+    }
+
+    #readitFooter{
+        background-color:#273043 !important;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        padding: 1em 0 3em;
+    }
+
+    .footer-inner{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .footer-container:first-child{
+        
+       font-weight: 700;
+       font-size: 18px;
+       margin: 1.2em 0;
+       padding-bottom: 10px;
+
+       border-bottom: 1px solid #fff;
+
+    }
+
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-decoration: none;
+    }
+
+    .footer-nav > *{
+        text-decoration: none;
+    }
+
+    .footer-nav span{
+        display: block;
+        border: 1px solid #fff;
+        padding: 0.5em 1em;
+        color: #fff;
+        
+    }
+
+    .footer-nav span:hover{
+        background-color:#181e2b;
+        cursor:pointer;
+    }
+    
+
+    .StoryBodyCompanionColumn{
+        width: auto !important;
+    }
+    
+    .img-sz-large{
+        width: auto !important;
+    }
+    
+    .grid-full-bleed{
+        display: none;
+    }
+    /* nyt ads */
+    #bottom-wrapper, #top-wrapper{
+        display: none;
+    }
+    /* washington post ads */
+    div[data-testId = article-body-ad-desktop], div[data-testId = article-body-ad-mobile]{
+        display: none;
+    }
